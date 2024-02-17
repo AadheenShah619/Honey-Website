@@ -1,0 +1,45 @@
+.navigation {
+    width: 412px;
+    height: 70px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    width: 350px;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.navigation ul li .icon i {
+    cursor: pointer;
+}
+
+.fa {
+    color: white;
+    margin-top: 1.4rem;
+}
+
+.fa-solid {
+    color: white;
+    margin-top: 1.4rem;
+}
+
+.fa-house {
+    color: #ff9f0d;
+    margin-top: 1.4rem;
+}
+
+.fa-solid:hover {
+    color: #ff9f0d;
+}
